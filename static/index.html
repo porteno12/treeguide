@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TreeGuide | מדריך עצי בינארי ב-Java</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-brand">
+      <span class="header-icon">⬡</span>
+      <span>TreeGuide</span>
+    </div>
+  </header>
+
+  <div class="page">
+    <div class="chat">
+      <div id="messages" class="messages" role="log" aria-live="polite" aria-label="שיחה עם TreeGuide"></div>
+      <div class="input-area">
+        <textarea
+          id="user-input"
+          placeholder="שאל אותי על עצי בינארי ב-Java..."
+          rows="1"
+          dir="auto"
+          aria-label="הודעה"
+        ></textarea>
+        <button id="send-btn" class="btn-send">שלח</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
